@@ -19,11 +19,12 @@ using System.Collections.Generic;
 using System.Globalization;
 using System.IO;
 using System.Runtime.InteropServices;
+
 #if MONO
 using SevenZip.Mono.COM;
 #endif
 
-namespace SevenZip
+namespace SevenZip.Mg
 {
 #if UNMANAGED
 

@@ -16,7 +16,7 @@
 
 using System;
 
-namespace SevenZip
+namespace SevenZip.Mg
 {
     /// <summary>
     /// The set of features supported by the library.

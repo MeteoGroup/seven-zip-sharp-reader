@@ -17,7 +17,7 @@
 using System;
 using System.IO;
 
-namespace SevenZip.Sdk.Compression.RangeCoder
+namespace SevenZip.Mg.sdk.Compress.RangeCoder
 {
     internal class Encoder
     {

@@ -1,9 +1,10 @@
-﻿namespace SevenZip
+﻿using System;
+using System.IO;
+
+namespace SevenZip.Mg
 {
-    using System;
-    using System.IO;
 #if DOTNET20
-    using System.Threading;
+
 #else
     using System.Windows.Threading;
 #endif

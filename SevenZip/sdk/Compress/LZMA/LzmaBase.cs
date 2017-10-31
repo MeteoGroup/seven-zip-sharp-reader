@@ -14,7 +14,7 @@
     along with SevenZipSharp.  If not, see <http://www.gnu.org/licenses/>.
 */
 
-namespace SevenZip.Sdk.Compression.Lzma
+namespace SevenZip.Mg.sdk.Compress.LZMA
 {
     internal abstract class Base
     {

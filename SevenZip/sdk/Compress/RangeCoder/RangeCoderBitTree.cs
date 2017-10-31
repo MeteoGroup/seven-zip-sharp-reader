@@ -16,7 +16,7 @@
 
 using System;
 
-namespace SevenZip.Sdk.Compression.RangeCoder
+namespace SevenZip.Mg.sdk.Compress.RangeCoder
 {
     internal struct BitTreeEncoder
     {

@@ -16,23 +16,24 @@
 
 using System;
 using System.Collections.Generic;
-#if !WINCE && !MONO
 using System.Configuration;
 using System.Diagnostics;
+using System.IO;
+using System.Reflection;
+using System.Runtime.InteropServices;
 using System.Security.Permissions;
+using System.Text;
+#if !WINCE && !MONO
 #endif
 #if WINCE
 using OpenNETCF.Diagnostics;
 #endif
-using System.IO;
-using System.Reflection;
-using System.Runtime.InteropServices;
-using System.Text;
+
 #if MONO
 using SevenZip.Mono.COM;
 #endif
 
-namespace SevenZip
+namespace SevenZip.Mg
 {
 #if UNMANAGED
     /// <summary>

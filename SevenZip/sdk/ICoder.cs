@@ -17,7 +17,7 @@
 using System;
 using System.IO;
 
-namespace SevenZip.Sdk
+namespace SevenZip.Mg.sdk
 {
     /// <summary>
     /// The exception that is thrown when an error in input stream occurs during decoding.
@@ -76,7 +76,7 @@ namespace SevenZip.Sdk
         /// <param name="progress">
         /// callback progress reference.
         /// </param>
-        /// <exception cref="SevenZip.Sdk.DataErrorException">
+        /// <exception cref="DataErrorException">
         /// if input stream is not valid
         /// </exception>
         void Code(Stream inStream, Stream outStream,

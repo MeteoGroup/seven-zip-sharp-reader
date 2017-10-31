@@ -17,7 +17,7 @@
 using System;
 using System.IO;
 
-namespace SevenZip
+namespace SevenZip.Mg
 {
     /// <summary>
     /// EventArgs for storing PercentDone property.
@@ -378,7 +378,7 @@ namespace SevenZip
     }
 
     /// <summary>
-    /// Callback delegate for <see cref="SevenZipExtractor.ExtractFiles(SevenZip.ExtractFileCallback)"/>.
+    /// Callback delegate for <see cref="SevenZipExtractor.ExtractFiles(SevenZip.Mg.ExtractFileCallback)"/>.
     /// </summary>
     public delegate void ExtractFileCallback(ExtractFileCallbackArgs extractFileCallbackArgs);
 #endif

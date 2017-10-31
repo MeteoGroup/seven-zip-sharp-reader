@@ -1,7 +1,7 @@
-﻿using System.IO;
-using System;
+﻿using System;
+using System.IO;
 
-namespace SevenZip
+namespace SevenZip.Mg
 {    
     /// <summary>
     /// The Stream extension class to emulate the archive part of a stream.

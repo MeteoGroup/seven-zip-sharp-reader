@@ -20,17 +20,17 @@ using System.Collections.ObjectModel;
 using System.Diagnostics;
 using System.Globalization;
 using System.IO;
+using SevenZip.Mg.sdk.Compress.LZMA;
 #if DOTNET20
-using System.Threading;
 #else
 using System.Linq;
 #endif
-using SevenZip.Sdk.Compression.Lzma;
+
 #if MONO
 using SevenZip.Mono.COM;
 #endif
 
-namespace SevenZip
+namespace SevenZip.Mg
 {
     /// <summary>
     /// Class for extracting and getting information about 7-zip archives
@@ -402,7 +402,7 @@ namespace SevenZip
         /// <summary>
         /// Retrieves all information about the archive.
         /// </summary>
-        /// <exception cref="SevenZip.SevenZipArchiveException"/>
+        /// <exception cref="SevenZipArchiveException"/>
         private void GetArchiveInfo(bool disposeStream)
         {
             if (_archive == null)

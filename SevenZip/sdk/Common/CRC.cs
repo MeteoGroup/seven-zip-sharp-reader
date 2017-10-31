@@ -14,7 +14,7 @@
     along with SevenZipSharp.  If not, see <http://www.gnu.org/licenses/>.
 */
 
-namespace SevenZip.Sdk
+namespace SevenZip.Mg.sdk.Common
 {
     internal class CRC
     {

@@ -16,11 +16,12 @@
 
 using System;
 using System.Runtime.InteropServices;
+
 #if MONO
 using SevenZip.Mono.COM;
 #endif
 
-namespace SevenZip
+namespace SevenZip.Mg
 {
 #if UNMANAGED
     internal static class NativeMethods
