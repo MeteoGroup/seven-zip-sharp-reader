@@ -16,10 +16,10 @@
 
 using System;
 using System.IO;
-using SevenZip.Sdk.Compression.LZ;
-using SevenZip.Sdk.Compression.RangeCoder;
+using SevenZip.Mg.sdk.Compress.LZ;
+using SevenZip.Mg.sdk.Compress.RangeCoder;
 
-namespace SevenZip.Sdk.Compression.Lzma
+namespace SevenZip.Mg.sdk.Compress.LZMA
 {
     /// <summary>
     /// The LZMA decoder class

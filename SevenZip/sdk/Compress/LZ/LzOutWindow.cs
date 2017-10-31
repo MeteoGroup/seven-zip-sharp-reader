@@ -16,7 +16,7 @@
 
 using System.IO;
 
-namespace SevenZip.Sdk.Compression.LZ
+namespace SevenZip.Mg.sdk.Compress.LZ
 {
     internal class OutWindow
     {

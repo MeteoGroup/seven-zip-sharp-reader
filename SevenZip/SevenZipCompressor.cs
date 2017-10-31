@@ -18,22 +18,22 @@ using System;
 using System.Collections.Generic;
 using System.Globalization;
 using System.IO;
+using System.Runtime.InteropServices;
+using System.Security.Permissions;
+using SevenZip.Mg.sdk;
+using SevenZip.Mg.sdk.Compress.LZMA;
 #if DOTNET20
-using System.Threading;
 #else
 using System.Linq;
 #endif
-using System.Runtime.InteropServices;
 #if !WINCE
-using System.Security.Permissions;
 #endif
-using SevenZip.Sdk;
-using SevenZip.Sdk.Compression.Lzma;
+
 #if MONO
 using SevenZip.Mono.COM;
 #endif
 
-namespace SevenZip
+namespace SevenZip.Mg
 {
 #if COMPRESS
     /// <summary>

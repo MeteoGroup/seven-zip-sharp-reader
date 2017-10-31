@@ -26,7 +26,7 @@ using FILETIME=System.Runtime.InteropServices.ComTypes.FILETIME;
 using FILETIME=OpenNETCF.Runtime.InteropServices.ComTypes.FILETIME;
 #endif
 
-namespace SevenZip
+namespace SevenZip.Mg
 {
     #if UNMANAGED
 

@@ -17,7 +17,7 @@
 using System;
 using System.IO;
 
-namespace SevenZip
+namespace SevenZip.Mg
 {
 #if UNMANAGED
     /// <summary>

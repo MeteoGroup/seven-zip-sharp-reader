@@ -15,9 +15,9 @@
 */
 
 using System;
-using SevenZip.Sdk;
+using SevenZip.Mg.sdk;
 
-namespace SevenZip
+namespace SevenZip.Mg
 {
     /// <summary>
     /// Callback to implement the ICodeProgress interface

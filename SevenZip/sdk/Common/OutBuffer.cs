@@ -16,7 +16,7 @@
 
 using System.IO;
 
-namespace SevenZip.Sdk.Buffer
+namespace SevenZip.Mg.sdk.Common
 {
     internal class OutBuffer
     {

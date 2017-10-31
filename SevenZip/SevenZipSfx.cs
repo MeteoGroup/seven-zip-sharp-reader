@@ -15,16 +15,7 @@
 */
 
 
-using System;
-using System.Collections.Generic;
-using System.Globalization;
-using System.IO;
-using System.Reflection;
-using System.Text;
-using System.Xml;
-using System.Xml.Schema;
-
-namespace SevenZip
+namespace SevenZip.Mg
 {
 #if SFX
     using SfxSettings = Dictionary<string, string>;

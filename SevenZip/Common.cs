@@ -14,15 +14,16 @@
     along with SevenZipSharp.  If not, see <http://www.gnu.org/licenses/>.
 */
 
+#if !WINCE
+#endif
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Globalization;
-#if !WINCE
 using System.Runtime.Remoting.Messaging;
-#endif
-#if DOTNET20
 using System.Threading;
+#if DOTNET20
+
 #else
 using System.Windows.Threading;
 #endif
@@ -30,7 +31,7 @@ using System.Windows.Threading;
 using SevenZip.Mono.COM;
 #endif
 
-namespace SevenZip
+namespace SevenZip.Mg
 {
 #if UNMANAGED
 

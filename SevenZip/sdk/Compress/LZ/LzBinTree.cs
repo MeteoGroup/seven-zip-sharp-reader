@@ -16,8 +16,9 @@
 
 using System;
 using System.IO;
+using SevenZip.Mg.sdk.Common;
 
-namespace SevenZip.Sdk.Compression.LZ
+namespace SevenZip.Mg.sdk.Compress.LZ
 {
     internal class BinTree : InWindow, IMatchFinder
     {

@@ -8,8 +8,8 @@
     <ProjectGuid>{4960DD14-3431-47EC-B9D9-9D2730A98DC3}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>SevenZip</RootNamespace>
-    <AssemblyName>SevenZipSharp</AssemblyName>
+    <RootNamespace>SevenZip.Mg</RootNamespace>
+    <AssemblyName>SevenZip.Mg</AssemblyName>
     <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <SignAssembly>true</SignAssembly>
@@ -29,7 +29,7 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <RegisterForComInterop>false</RegisterForComInterop>
-    <DocumentationFile>bin\Debug\SevenZipSharp.xml</DocumentationFile>
+    <DocumentationFile>bin\Debug\SevenZip.Mg.xml</DocumentationFile>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -39,7 +39,7 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <RegisterForComInterop>false</RegisterForComInterop>
-    <DocumentationFile>bin\Release\SevenZipSharp.xml</DocumentationFile>
+    <DocumentationFile>bin\Release\SevenZip.Mg.xml</DocumentationFile>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Deploy|AnyCPU' ">
     <OutputPath>bin\Deploy\</OutputPath>

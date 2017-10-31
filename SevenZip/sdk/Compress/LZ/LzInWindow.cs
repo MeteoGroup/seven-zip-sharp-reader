@@ -13,10 +13,11 @@
     You should have received a copy of the GNU Lesser General Public License
     along with SevenZipSharp.  If not, see <http://www.gnu.org/licenses/>.
 */
+
 using System;
 using System.IO;
 
-namespace SevenZip.Sdk.Compression.LZ
+namespace SevenZip.Mg.sdk.Compress.LZ
 {
     /// <summary>
     /// Input window class

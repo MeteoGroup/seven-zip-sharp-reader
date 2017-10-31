@@ -16,9 +16,9 @@
 
 using System;
 using System.IO;
-using SevenZip.Sdk.Compression.Lzma;
+using SevenZip.Mg.sdk.Compress.LZMA;
 
-namespace SevenZip
+namespace SevenZip.Mg
 {
 #if LZMA_STREAM
     /// <summary>

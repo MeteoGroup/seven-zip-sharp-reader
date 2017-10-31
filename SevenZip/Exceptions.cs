@@ -15,11 +15,12 @@
 */
 
 using System;
-#if !WINCE
 using System.Runtime.Serialization;
+#if !WINCE
+
 #endif
 
-namespace SevenZip
+namespace SevenZip.Mg
 {    
     /// <summary>
     /// Base SevenZip exception class.
